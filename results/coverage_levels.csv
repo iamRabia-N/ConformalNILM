@@ -1,0 +1,16 @@
+app,nominal,cov
+kettle,0.8,0.907
+kettle,0.9,0.907
+kettle,0.95,0.95
+microwave,0.8,0.904
+microwave,0.9,0.904
+microwave,0.95,0.942
+fridge,0.8,0.853
+fridge,0.9,0.927
+fridge,0.95,0.968
+dishwasher,0.8,0.978
+dishwasher,0.9,0.978
+dishwasher,0.95,0.978
+washing_machine,0.8,0.894
+washing_machine,0.9,0.894
+washing_machine,0.95,0.94
