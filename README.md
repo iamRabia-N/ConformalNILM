@@ -27,6 +27,8 @@ Run sc_cqr_nilm.py top to bottom on a GPU machine. Tested on Kaggle with an NVID
 
 The files in predictions/ are derived from the REFIT CLEAN dataset (CC BY 4.0).
 
+results_multi_house.csv also contains rows for house 13. House 13 was evaluated with automatically detected channel assignments that could not be verified against the REFIT documentation, houses 5 and 6 use documented assignments, so house 13 is not reported in the paper.
+
 ## Checkpoints
 
 Trained model checkpoints exceed the file size limit here. A rerun of the script retrains them from the dataset with the fixed seeds. GPU training is not bit-identical across runs, so regenerated numbers can differ slightly from the published tables. The published tables come from the prediction records in this repository.
